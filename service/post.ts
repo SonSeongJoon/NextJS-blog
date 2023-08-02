@@ -9,6 +9,17 @@ export type Post = {
     path: string;
     featured: boolean;
 };
+export async function getNonFeaturedPosts():Promise<Post[]> {
+    return getAllPosts()
+        .then(posts => posts.filter((post)=> post.featured))
+}
+
+// featured된 것만 post 데이터 가져오기
+export async function getFeauredPosts():Promise<Post[]> {
+    return getAllPosts()
+        .then(posts => posts.filter((post)=> post.featured))
+}
+// 모든 post 데이터 가져오기
 export async function getAllPosts(): Promise<Post[]> {
     const filePath = path.join(process.cwd(), 'data', 'posts.json');
     return readFile(filePath, 'utf-8')

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import myImage from '../../public/images/clothes.jpg';
+import myImage from '../../public/images/me.jpg';
 import Link from "next/link";
 
 export default function Hero() {
@@ -7,9 +7,10 @@ export default function Hero() {
         <section className="text-center">
             <Image className="mx-auto rounded-full"
                    src={myImage}
+                   width={200}
+                   height={200}
                    alt='hero'
-                   width={250}
-                   height={250}
+
                    priority
             />
             <h2 className="text-3xl font-bold mt-2">{"Hi, I'm Son"}</h2>
