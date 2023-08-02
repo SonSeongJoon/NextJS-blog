@@ -1,4 +1,4 @@
-import {Post} from "/../../service/post";
+import {Post} from "../../service/post";
 import Link from "next/link";
 import Image from "next/image";
 

@@ -1,4 +1,4 @@
-import {Post} from "/../../service/post";
+import {Post} from "../../service/post";
 import PostCard from "@/component/PostCard";
 export type Props = { posts : Post[] };
 export default function PostGrid({posts}: Props) {
