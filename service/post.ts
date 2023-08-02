@@ -15,7 +15,7 @@ export async function getNonFeaturedPosts():Promise<Post[]> {
 }
 
 // featured된 것만 post 데이터 가져오기
-export async function getFeauredPosts():Promise<Post[]> {
+export async function getFeaturedPosts():Promise<Post[]> {
     return getAllPosts()
         .then(posts => posts.filter((post)=> post.featured))
 }
