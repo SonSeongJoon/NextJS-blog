@@ -8,7 +8,7 @@ export default function AboutPage() {
                 <div className='mb-10'>
                     <h2 className='text-2xl font-bold'>Who Am I?</h2>
                     <p>개발을 사랑하는 풀스택 개발자</p>
-                    <p>사람과 디자인을 담는 웹앱을 만들고 있음</p>
+                    <p>무한한 발전가능성을 보여줌</p>
                 </div>
                 <div className='mb-10'>
                     <h2 className='text-2xl font-bold'>Career</h2>
