@@ -6,3 +6,25 @@ html,
 body {
     height: 100vh;
 }
+
+/* 스크롤바 전체 너비 설정 */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* 스크롤바 트랙 (바탕) 스타일 */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* 스크롤바 핸들 (드래그 가능 부분) 스타일 */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px; /* 둥근 모서리 추가 */
+
+}
+
+/* 스크롤바 핸들 호버 시 스타일 */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
