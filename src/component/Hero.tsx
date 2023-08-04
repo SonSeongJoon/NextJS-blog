@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-        <section className="text-center">
-            <Image className="mx-auto rounded-full"
+        <section className="text-center mt-5">
+            <Image className="mx-auto rounded-full object-cover h-40 w-40"
                    src={myImage}
-                   width={200}
-                   height={200}
+                   width={250}
+                   height={250}
                    alt='hero'
 
                    priority
