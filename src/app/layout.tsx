@@ -15,6 +15,7 @@ export const metadata = {
         template: 'Son Blog | %s'
     },
     description: 'Full Stack Engineer Son',
+}
 
 export default function RootLayout({
                                        children,
