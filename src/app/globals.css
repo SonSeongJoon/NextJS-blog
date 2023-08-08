@@ -21,7 +21,6 @@ body {
 ::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 5px; /* 둥근 모서리 추가 */
-
 }
 
 /* 스크롤바 핸들 호버 시 스타일 */
